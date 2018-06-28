@@ -10,11 +10,10 @@ dependencies {
 
     testImplementation domainTestDependencies.junit
     testImplementation domainTestDependencies.mockito
+    testImplementation domainTestDependencies.mockitoCore
     testImplementation domainTestDependencies.assertj
 
-    implementation 'org.mockito:mockito-core:2.19.0'
-    implementation 'junit:junit:4.12'
 }
 
-sourceCompatibility = "1.6"
-targetCompatibility = "1.6"
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

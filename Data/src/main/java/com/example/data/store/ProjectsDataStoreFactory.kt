@@ -3,7 +3,7 @@ package com.example.data.store
 import com.example.data.repository.ProjectsDataStore
 import javax.inject.Inject
 
-class ProjectsDataStoreFactory @Inject constructor(
+open class ProjectsDataStoreFactory @Inject constructor(
         private val projectsCacheDataStore: ProjectsCacheDataStore,
         private val projectsRemoteDataStore: ProjectsRemoteDataStore
 ) {
